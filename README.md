@@ -4,7 +4,7 @@ A GPS run-tracker that lets other people **spectate your run live** on a map —
 
 Built on the [DPTechnics Walter](https://www.dptechnics.com/en/products/walter.html) board (ESP32-S3 + Sequans GM02SP cellular modem with built-in GNSS). The device takes a GPS fix, pushes it to a Firebase Realtime Database, and a lightweight web app draws the route on a live map.
 
-> **Status:** v1 (WiFi) working end-to-end — device gets a GNSS fix and streams position to the live map. Each run is now its own session in Firebase, writes are authenticated, and the web app can replay past runs. v2 (cellular) firmware has been written but is **not yet verified on real hardware** — see [Roadmap](#roadmap).
+> **Status:** v1 (WiFi) working end-to-end — device gets a GNSS fix and streams position to the live map. Each run is now its own session in Firebase, writes are authenticated, and the web app can replay past runs. v2 (cellular) firmware has been written but is **not yet verified on real hardware**
 
 ---
 
